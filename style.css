@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 901px;
+}
+
+.header img {
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.header .d-flex nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 120px 0px 120px;
+}
+
+.navigation ul {
+    justify-content: space-between;
+    width: 39.45vw;
+    height: 27.31px;
+}
+
+li {
+    color: #ffffff;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.card1 .card1-text {
+    color: #BF9766;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card1 .line {
+    height: 105px;
+    width: 1px;
+    background-color: #ffffff;
+    margin-left: 3px;
+}
+
+
+.card1 .line2 {  
+    height: 105px;
+    width: 1px;
+    background-color: #BF9766;
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+
+.navigation ul i {
+    display: none;
+}
+
+.header-container {
+    position: relative;
+    left: 121px;
+    top: 95px;
+}
+
+.card2-text {
+    color: #ffffff;
+}
+
+.m-top {
+    margin-top: 15px;
+}
+
+.card2-text .main-text {
+    font-size: 85px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-weight: lighter;
+}
+
+.card2-text .rate {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.card2-text .rate .star {
+    margin-left: 30px;
+    position: relative;
+    left: 12vw;
+    margin-top: 10px;
+}
+
+.card2-text .rate .star span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.card2-text .rate .star .five .fill {
+    padding-right: 0.4px;
+    color: #FFC952;
+}
+
+.card2 .btn {
+    margin-top: 6vw;
+    z-index: 100;
+}
+
+.btn img {
+    cursor: pointer;
+}
+
+.block2 .center {
+    /* border: 2px solid #000; */
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.block2 {
+    margin-bottom: 93px;
+}
+
+.card-text {
+    padding-left: 160px;
+}
+
+.main2-text {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.para {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 17px;
+    color: #575656;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn2 {
+    position: relative;
+    top: 115px;
+    height: 47.5px;
+}
+
+.press {
+    color: #BF9766;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding-right: 5px;
+    margin: 13px 0px;
+    border: none;
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn2:last-child {
+    border-top: 1px solid #BF9766;
+    border-bottom: 1px solid #BF9766;
+    width: 115px;
+}
+
+.btn3:last-child {
+    border-top: 1px solid #BF9766;
+    border-bottom: 1px solid #BF9766;
+    width: 115px;
+}
+
+.press i {
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.absolute-item img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 45%;
+}
+
+.block3 {
+    background-color: #2D2c2c;
+    width: 100%;
+    height: auto;
+}
+
+.m-t {
+    margin-top: 110px;
+}
+
+.m-b {
+    margin-bottom: 20px;
+}
+
+.text1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+}
+
+.section-img {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.room {
+    margin: auto 0px;
+    position: relative;
+    left: 65px;
+}
+
+.room2 {
+    z-index: 1000;
+}
+
+.room2 img {
+    height: 350px;
+}
+
+.room img {
+    width: 428px;
+    height: 255px;
+}
+
+.slider-png {
+    margin-bottom: 80px;
+}
+
+.block4 {
+    margin: 80px auto;
+    height: auto;
+}
+
+.b4card1 {
+    width: 84vw;
+}
+
+.b4-text {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.m-t1 {
+    margin-top: 36px;
+}
+
+.b4-card-img .four {
+    flex-wrap: wrap;
+}
+
+.four .four-img img {
+    width: 255px;
+    height: 147px;
+}
+
+.b4-card-img {
+    margin-top: 20vh;
+    width: auto;
+}
+
+.single {
+    margin-left: 44px;
+}
+
+.single img {
+    width: 37.45vw;
+}
+
+.m {
+    margin: 5px 0px;
+}
+
+.four-text {
+    font-size: 18px;
+    color: #818080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clr {
+    font-size: 13px;
+    color: #BDBDBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+
+.four-text-dark {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.new {
+    color: #BF9766;
+}
+
+.child:last-child {
+    border-top: 1px solid #BDBDBD;
+}
+
+.position {
+    position: relative;
+    top: 220px;
+}
+
+.position img {
+    width: 100%;
+    height: 102%;
+}
+
+.b4-cont-text {
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 70vw;
+    height: auto;
+}
+
+.override {
+    top: 33px !important;
+}
+
+.override .press {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.override:last-child {
+    border-top: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+    width: 115px;
+}
+
+.b4-cont-white {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+}
+
+footer {
+    background-color: #2D2c2c;
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 80vh;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer div {
+    height: auto;
+}
+
+.foot {
+    width: 29vw;
+}
+
+.foot img {
+    width: 20vw;
+}
+
+.foot p {
+    margin-top: 20px;
+}
+
+.nav-links-a {
+    text-decoration: none;
+    color: #BF9766;
+}
+
+.nav-links ul {
+    margin-top: 5px;
+}
+
+.nav-links ul li {
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+.p {
+    margin-top: 10px;
+}
+
+.input input {
+    background-color: #575656;
+    border: none;
+    padding: 12.5px;
+    width: 18vw;
+}
+
+::placeholder {
+    color: #BF9766;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.input img {
+    width: 40px;
+    position: relative;
+    top: 16px;
+    left: -6px;
+}
+
+.social {
+    margin-top: 90px;
+}
+
+.social span {
+    height: 2px;
+    background-color: #ffffff;
+    width: 29vw;
+    position: relative;
+    top: 22px;
+}
+
+.space {
+    margin-top: 40px;
+}
+
+.last span {
+    margin: 0px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.absolute-content {
+    position: absolute;
+    width: 26vw;
+    height: 480px;
+    background-color: #2D2c2c;
+    z-index: 1000;
+    right: 100px;
+    bottom: -260px;
+}
+
+.pre-override {
+    color: #BF9766 !important;
+    width: 10vw;
+}
+
+.pre {
+    margin: auto;
+}
+
+.pre:last-child {
+    border: none !important;
+}
+
+.space-ard {
+    justify-content: space-around;
+}
+
+.abs-container {
+    height: auto;
+}
+
+.abs span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.abs input {
+    background-color: #575656;
+    border: none;
+    padding: 1vh 9vw 2vh 1vw;
+    color: #BF9766;
+    margin-bottom: 25px;
+}
+
+.abs input[type="date"] {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.abs input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+    /* This hides the default calendar icon */
+}
+
+.abs input[type="date"]::before {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url('Assets/calendar-regular-24.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.roogues label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+#number {
+    border: none;
+    background-color: #575656;
+    padding: 1vw 1vw 1vw 1vw;
+    width: 8vw;
+}
+
+
+
+/* extra scrollbar coustmizatiob */
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+/* The track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #575656;
+    /* Light grey background */
+    border-radius: 0px;
+    /* Rounded corners on the track */
+}
+
+/* The handle (scrollbar thumb) */
+::-webkit-scrollbar-thumb {
+    background: #BF9766;
+    /* Dark grey thumb */
+    border-radius: 0px;
+    /* Rounded corners on the thumb */
+}
+
+/* Hover effect for the handle */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFC952;
+    /* Darker grey when hovered */
+}
+
+/* Custom scrollbar corner (if both horizontal and vertical scrollbars are visible) */
+/* ::-webkit-scrollbar-corner {
+    background: #FFC952;
+    } */
+/* Background for the bottom-right corner */

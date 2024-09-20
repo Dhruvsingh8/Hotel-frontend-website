@@ -1,0 +1,175 @@
+@media screen and (max-width:900px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .header {
+        width: 100%;
+        height: 901px;
+    }
+
+    .header .img {
+        background-image: url("Assets/home.jpg");
+        width: 100vw;
+        height: 80%;
+        background-size: cover;
+    }
+
+
+    .header .img .img1 {
+        background-repeat: no-repeat;
+        width: max-content;
+        position: absolute;
+        z-index: -10;
+        display: none;
+    }
+
+    .header .d-flex nav {
+        justify-content: space-between;
+        align-items: center;
+        margin: 36px 120px 0px 120px;
+    }
+
+    .navigation ul {
+        justify-content: end;
+        margin-top: 40px;
+    }
+
+    .navigation ul i {
+        padding-top: 5px;
+    }
+
+    .logo-png img {
+        z-index: 1000;
+    }
+
+    .navigation ul li {
+        display: none;
+    }
+
+    .card1 .card1-text {
+        color: #BF9766;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .m-top {
+        margin-top: -5px;
+    }
+
+    .card2-text .main-text {
+        font-size: 65px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: 100;
+        font-weight: lighter;
+    }
+
+    .rate .raters img {
+        z-index: 1000;
+        width: 140px;
+        height: 55px;
+    }
+
+    .card2-text .rate .star {
+        left: 15vw;
+    }
+
+    .block2 .center {
+        /* border: 2px solid #000; */
+        width: 780px;
+        height: auto;
+        margin: auto;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .card-img img {
+        width: 410px;
+        background-size: cover;
+    }
+
+    .card-text {
+        padding-left: 66px;
+    }
+
+    .btn2 {
+        top: 15px;
+    }
+
+    .absolute-item img {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 52%;
+    }
+
+    .text1 {
+        font-size: 35px;
+    }
+
+    .room img{
+    width: 40vw;
+    }
+    
+    .room2 img{
+       width: 40vw;
+    }
+
+    .m-t1 {
+        top: 115px;
+    }
+
+    .b4-text {
+        font-size: 34px;
+    }
+
+    .b4-card-img {
+        margin-top: 7vh;
+    }
+
+    #flex-direction{
+        flex-direction: column;
+    }
+    .four .four-img img {
+        width: 347px;
+        height: 202px;
+    }
+
+    .single {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .single img {
+        width: 84vw;
+    }
+
+    .override {
+        top: 64px !important;
+    }
+
+    footer {
+        margin-top: 45vh;
+    }
+    .absolute-content {
+        width: 32vw;
+        height: 480px;
+        background-color: #2D2c2c;
+        z-index: 1000;
+        right: 55px;
+        bottom: -152px;
+    }
+}
